@@ -1,0 +1,13 @@
+{
+  "name": "lambda-api-endpoint",
+  "version": "1.0.0",
+  "description": "Node.js application with a REST endpoint for customer data storage in AWS S3 and queryable via Athena.",
+  "main": "customer.js",
+  "scripts": {
+    "start": "node customer.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.911.0",
+    "express": "^4.17.1"
+  }
+}
